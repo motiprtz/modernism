@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { Clock, BookOpen, Music, Home, Map, ListMusic } from 'lucide-react'
 import Timeline from './components/Timeline'
 import Flashcards from './components/Flashcards'
