@@ -43,7 +43,7 @@
 .stat-value {
   font-size: 2rem;
   font-weight: 700;
-  color: #667eea;
+  color: #2c5f7c;
 }
 
 .stat-label {
@@ -123,7 +123,7 @@
 }
 
 .filter-group select:focus {
-  border-color: #667eea;
+  border-color: #2c5f7c;
   background: white;
 }
 
@@ -211,13 +211,13 @@
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: #667eea;
+  color: #2c5f7c;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .expand-icon:hover {
-  background: #667eea;
+  background: #2c5f7c;
   color: white;
   transform: scale(1.1);
 }
@@ -272,7 +272,7 @@
   background: #f7fafc;
   padding: 1.5rem;
   border-radius: 8px;
-  border-right: 4px solid #667eea;
+  border-right: 4px solid #2c5f7c;
   color: #4a5568;
   line-height: 1.8;
   white-space: pre-wrap;
@@ -288,7 +288,7 @@
   background: #f7fafc;
   padding: 1.25rem;
   border-radius: 8px;
-  border-right: 4px solid #764ba2;
+  border-right: 4px solid #4a7c9c;
 }
 
 .movement-header {
@@ -301,7 +301,7 @@
 .movement-number {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2c5f7c 0%, #4a7c9c 100%);
   color: white;
   border-radius: 6px;
   font-weight: 700;
