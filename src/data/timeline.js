@@ -356,16 +356,46 @@ export const composers = [
   },
   {
     id: 4,
-    name: "Claude Debussy",
-    years: "1862-1918",
-    nationality: "צרפתי",
-    birthPlace: "פריז",
-    style: "אימפרסיוניזם/סימבוליזם",
-    importance: "שבירת הטונאליות, צבעי תזמורת, הרמוניה סטטית",
-    works: ["Prélude à l'après-midi d'un faune", "Pelléas et Mélisande", "La Mer"]
+    name: "Alexander Borodin",
+    years: "1833-1887",
+    nationality: "רוסי",
+    birthPlace: "סנט פטרבורג",
+    style: "לאומיות רוסית",
+    importance: "חבר החמישייה הרוסית, שילוב אוריינטליזם",
+    works: ["Prince Igor", "In the Steppes of Central Asia", "String Quartet No. 2"]
   },
   {
     id: 5,
+    name: "Edvard Grieg",
+    years: "1843-1907",
+    nationality: "נורווגי",
+    birthPlace: "ברגן",
+    style: "לאומיות נורווגית",
+    importance: "מייצג המוזיקה הנורווגית, שימוש בפולקלור",
+    works: ["Peer Gynt", "Piano Concerto", "Lyric Pieces"]
+  },
+  {
+    id: 6,
+    name: "Giacomo Puccini",
+    years: "1858-1924",
+    nationality: "איטלקי",
+    birthPlace: "לוקה",
+    style: "וריזמו",
+    importance: "מאסטרו האופרה האיטלקית, דרמטיות ומלודיות",
+    works: ["La Bohème", "Tosca", "Madama Butterfly", "Turandot"]
+  },
+  {
+    id: 7,
+    name: "Anton Bruckner",
+    years: "1824-1896",
+    nationality: "אוסטרי",
+    birthPlace: "וינה",
+    style: "רומנטיקה מאוחרת",
+    importance: "סימפוניות מונומנטליות, השפעת וגנר",
+    works: ["Symphony No. 7", "Symphony No. 8", "Symphony No. 9"]
+  },
+  {
+    id: 8,
     name: "Gustav Mahler",
     years: "1860-1911",
     nationality: "אוסטרי-יהודי",
@@ -375,7 +405,27 @@ export const composers = [
     works: ["Symphony no. 1", "Das Lied von der Erde", "Symphony no. 9"]
   },
   {
-    id: 6,
+    id: 9,
+    name: "Claude Debussy",
+    years: "1862-1918",
+    nationality: "צרפתי",
+    birthPlace: "פריז",
+    style: "אימפרסיוניזם/סימבוליזם",
+    importance: "שבירת הטונאליות, צבעי תזמורת, הרמוניה סטטית",
+    works: ["Prélude à l'après-midi d'un faune", "Pelléas et Mélisande", "La Mer", "Preludes"]
+  },
+  {
+    id: 10,
+    name: "Alexander Scriabin",
+    years: "1872-1915",
+    nationality: "רוסי",
+    birthPlace: "מוסקבה",
+    style: "סימבוליזם/מיסטיציזם",
+    importance: "סינסתזיה, הרמוניה מיסטית, חיפוש רוחני",
+    works: ["Le poème de l'extase", "Prométhée", "Piano Sonatas"]
+  },
+  {
+    id: 11,
     name: "Arnold Schoenberg",
     years: "1874-1951",
     nationality: "אוסטרי-יהודי",
@@ -385,17 +435,17 @@ export const composers = [
     works: ["Pierrot Lunaire", "Verklärte Nacht", "A Survivor from Warsaw"]
   },
   {
-    id: 7,
-    name: "Igor Stravinsky",
-    years: "1882-1971",
-    nationality: "רוסי",
-    birthPlace: "סנט פטרבורג",
-    style: "פרימיטיביזם/נאו-קלאסיציזם",
-    importance: "שבירת הריתמוס, סגנונות מגוונים",
-    works: ["Le sacre du printemps", "Petrushka", "Oedipus Rex"]
+    id: 12,
+    name: "Charles Ives",
+    years: "1874-1954",
+    nationality: "אמריקאי",
+    birthPlace: "ניו יורק",
+    style: "אמריקאי ניסיוני",
+    importance: "חלוץ המודרניזם האמריקאי, פוליטונאליות",
+    works: ["The Unanswered Question", "Three Places in New England", "Concord Sonata"]
   },
   {
-    id: 8,
+    id: 13,
     name: "Béla Bartók",
     years: "1881-1945",
     nationality: "הונגרי",
@@ -403,6 +453,76 @@ export const composers = [
     style: "נאו-פולקלוריזם",
     importance: "מחקר פולקלור, שימוש במודוסים",
     works: ["Romanian Dances", "Music for Strings, Percussion and Celesta", "Concerto for Orchestra"]
+  },
+  {
+    id: 14,
+    name: "Igor Stravinsky",
+    years: "1882-1971",
+    nationality: "רוסי",
+    birthPlace: "סנט פטרבורג",
+    style: "פרימיטיביזם/נאו-קלאסיציזם",
+    importance: "שבירת הריתמוס, סגנונות מגוונים",
+    works: ["Le sacre du printemps", "Petrushka", "Oedipus Rex", "The Firebird"]
+  },
+  {
+    id: 15,
+    name: "Alban Berg",
+    years: "1885-1935",
+    nationality: "אוסטרי",
+    birthPlace: "וינה",
+    style: "אקספרסיוניזם/דודקפוניה",
+    importance: "תלמיד שנברג, שילוב רומנטיקה ודודקפוניה",
+    works: ["Wozzeck", "Lulu", "Lyrische Suite", "Violin Concerto"]
+  },
+  {
+    id: 16,
+    name: "Paul Hindemith",
+    years: "1895-1963",
+    nationality: "גרמני",
+    birthPlace: "פרנקפורט",
+    style: "נאו-קלאסיציזם/Gebrauchsmusik",
+    importance: "מוזיקה שימושית, תיאוריה מוזיקלית",
+    works: ["Mathis der Maler", "Symphonic Metamorphosis", "Ludus Tonalis"]
+  },
+  {
+    id: 17,
+    name: "George Gershwin",
+    years: "1898-1937",
+    nationality: "אמריקאי",
+    birthPlace: "ניו יורק",
+    style: "ג'אז סימפוני",
+    importance: "שילוב ג'אז וקלאסיקה, מוזיקה אמריקאית",
+    works: ["Rhapsody in Blue", "An American in Paris", "Porgy and Bess"]
+  },
+  {
+    id: 18,
+    name: "Dmitri Shostakovich",
+    years: "1906-1975",
+    nationality: "רוסי/סובייטי",
+    birthPlace: "סנט פטרבורג",
+    style: "מודרניזם סובייטי",
+    importance: "מוזיקה תחת משטר סטליני, ביטוי אישי וציבורי",
+    works: ["Symphony No. 5", "Symphony No. 7 'Leningrad'", "Piano Trio No. 2", "String Quartet No. 8"]
+  },
+  {
+    id: 19,
+    name: "Olivier Messiaen",
+    years: "1908-1992",
+    nationality: "צרפתי",
+    birthPlace: "פריז",
+    style: "מודרניזם דתי",
+    importance: "ריתמוס הודי, צלילי ציפורים, תיאולוגיה מוזיקלית",
+    works: ["Quatuor pour la fin du temps", "Turangalîla-Symphonie", "Catalogue d'oiseaux"]
+  },
+  {
+    id: 20,
+    name: "Anton Webern",
+    years: "1883-1945",
+    nationality: "אוסטרי",
+    birthPlace: "וינה",
+    style: "דודקפוניה/סריאליזם",
+    importance: "תלמיד שנברג, יצירות קצרות וממוקדות",
+    works: ["Five Pieces for Orchestra", "Symphony Op. 21", "Variations for Piano"]
   }
 ];
 

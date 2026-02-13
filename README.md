@@ -48,9 +48,10 @@
 ## 📊 נתונים
 
 האפליקציה כוללת:
-- **{timelineEvents.length} אירועים** בציר הזמן
-- **{concepts.length} מושגים** ללימוד
-- **{compositions.length} יצירות** להאזנה וניתוח
+- **40+ אירועים** בציר הזמן
+- **20 מלחינים** במפה האינטראקטיבית
+- **96 מושגים** ללימוד
+- **22 יצירות** להאזנה וניתוח
 
 ## 🚀 התחלת עבודה
 
