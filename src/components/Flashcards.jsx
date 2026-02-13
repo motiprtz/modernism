@@ -166,7 +166,16 @@ function Flashcards() {
                   <div className="flashcard-back">
                     <div className="card-label">הגדרה</div>
                     <div className="card-content">
-                      <p>{currentConcept.definition}</p>
+                      <div className="definition-section">
+                        <strong>הגדרה קצרה:</strong>
+                        <p>{currentConcept.definition}</p>
+                      </div>
+                      {currentConcept.description && (
+                        <div className="description-section">
+                          <strong>הרחבה:</strong>
+                          <p>{currentConcept.description}</p>
+                        </div>
+                      )}
                     </div>
                     <div className="flip-hint">לחץ לחזרה ⤴️</div>
                   </div>
@@ -232,7 +241,16 @@ function Flashcards() {
                       {isMastered ? '✅' : '⭐'}
                     </button>
                   </div>
-                  <p>{concept.definition}</p>
+                  <div className="concept-definition">
+                    <strong>הגדרה:</strong>
+                    <p>{concept.definition}</p>
+                  </div>
+                  {concept.description && (
+                    <div className="concept-description">
+                      <strong>הרחבה:</strong>
+                      <p>{concept.description}</p>
+                    </div>
+                  )}
                 </div>
               );
             })}
