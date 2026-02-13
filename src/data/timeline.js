@@ -329,6 +329,7 @@ export const composers = [
     name: "Richard Wagner",
     years: "1813-1883",
     nationality: "גרמני",
+    birthPlace: "לייפציג",
     style: "רומנטיקה מאוחרת",
     importance: "מהפכן באופרה, Gesamtkunstwerk, השפעה עצומה על המאה ה-20",
     works: ["Tristan und Isolde", "Der Ring des Nibelungen", "Parsifal"]
@@ -338,6 +339,7 @@ export const composers = [
     name: "Johannes Brahms",
     years: "1833-1897",
     nationality: "גרמני",
+    birthPlace: "המבורג",
     style: "רומנטיקה",
     importance: "שמרן, המשך המסורת הקלאסית, מוזיקה אבסולוטית",
     works: ["Symphony no. 4", "Clarinet Quintet", "German Requiem"]
@@ -347,6 +349,7 @@ export const composers = [
     name: "Modest Musorgsky",
     years: "1839-1881",
     nationality: "רוסי",
+    birthPlace: "סנט פטרבורג",
     style: "לאומיות רוסית",
     importance: "חבר החמישייה הרוסית, שפה מוזיקלית ייחודית",
     works: ["Boris Godunov", "Pictures at an Exhibition", "Night on Bald Mountain"]
@@ -356,6 +359,7 @@ export const composers = [
     name: "Claude Debussy",
     years: "1862-1918",
     nationality: "צרפתי",
+    birthPlace: "פריז",
     style: "אימפרסיוניזם/סימבוליזם",
     importance: "שבירת הטונאליות, צבעי תזמורת, הרמוניה סטטית",
     works: ["Prélude à l'après-midi d'un faune", "Pelléas et Mélisande", "La Mer"]
@@ -365,6 +369,7 @@ export const composers = [
     name: "Gustav Mahler",
     years: "1860-1911",
     nationality: "אוסטרי-יהודי",
+    birthPlace: "וינה",
     style: "רומנטיקה מאוחרת",
     importance: "שילוב אומנות עלית עם עממי, סימפוניות ענקיות",
     works: ["Symphony no. 1", "Das Lied von der Erde", "Symphony no. 9"]
@@ -374,6 +379,7 @@ export const composers = [
     name: "Arnold Schoenberg",
     years: "1874-1951",
     nationality: "אוסטרי-יהודי",
+    birthPlace: "וינה",
     style: "אקספרסיוניזם/דודקפוניה",
     importance: "שבירת הטונאליות, דודקפוניה, מהפכן",
     works: ["Pierrot Lunaire", "Verklärte Nacht", "A Survivor from Warsaw"]
@@ -383,6 +389,7 @@ export const composers = [
     name: "Igor Stravinsky",
     years: "1882-1971",
     nationality: "רוסי",
+    birthPlace: "סנט פטרבורג",
     style: "פרימיטיביזם/נאו-קלאסיציזם",
     importance: "שבירת הריתמוס, סגנונות מגוונים",
     works: ["Le sacre du printemps", "Petrushka", "Oedipus Rex"]
@@ -392,6 +399,7 @@ export const composers = [
     name: "Béla Bartók",
     years: "1881-1945",
     nationality: "הונגרי",
+    birthPlace: "בודפשט",
     style: "נאו-פולקלוריזם",
     importance: "מחקר פולקלור, שימוש במודוסים",
     works: ["Romanian Dances", "Music for Strings, Percussion and Celesta", "Concerto for Orchestra"]

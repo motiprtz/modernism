@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import { Clock, BookOpen, Music, Home } from 'lucide-react'
+import { Clock, BookOpen, Music, Home, Map, ListMusic } from 'lucide-react'
 import Timeline from './components/Timeline'
 import Flashcards from './components/Flashcards'
 import Compositions from './components/Compositions'
 import HomePage from './components/HomePage'
+import ComposerMap from './components/ComposerMap'
+import ListeningList from './components/ListeningList'
 import './App.css'
 
 function App() {
@@ -36,6 +38,14 @@ function App() {
             <span>ציר הזמן</span>
           </Link>
           <Link 
+            to="/map" 
+            className={`nav-item ${activeTab === 'map' ? 'active' : ''}`}
+            onClick={() => setActiveTab('map')}
+          >
+            <Map size={24} />
+            <span>מפת מלחינים</span>
+          </Link>
+          <Link 
             to="/flashcards" 
             className={`nav-item ${activeTab === 'flashcards' ? 'active' : ''}`}
             onClick={() => setActiveTab('flashcards')}
@@ -44,12 +54,20 @@ function App() {
             <span>כרטיסיות מושגים</span>
           </Link>
           <Link 
+            to="/listening" 
+            className={`nav-item ${activeTab === 'listening' ? 'active' : ''}`}
+            onClick={() => setActiveTab('listening')}
+          >
+            <ListMusic size={24} />
+            <span>רשימת האזנה</span>
+          </Link>
+          <Link 
             to="/compositions" 
             className={`nav-item ${activeTab === 'compositions' ? 'active' : ''}`}
             onClick={() => setActiveTab('compositions')}
           >
             <Music size={24} />
-            <span>יצירות והאזנה</span>
+            <span>יצירות מפורטות</span>
           </Link>
         </nav>
 
@@ -57,7 +75,9 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/timeline" element={<Timeline />} />
+            <Route path="/map" element={<ComposerMap />} />
             <Route path="/flashcards" element={<Flashcards />} />
+            <Route path="/listening" element={<ListeningList />} />
             <Route path="/compositions" element={<Compositions />} />
           </Routes>
         </main>

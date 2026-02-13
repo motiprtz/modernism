@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
-import { Clock, BookOpen, Music, CheckCircle } from 'lucide-react'
+import { Clock, BookOpen, Music, CheckCircle, Map, ListMusic } from 'lucide-react'
 import { concepts } from '../data/concepts'
 import { compositions } from '../data/compositions'
-import { timelineEvents } from '../data/timeline'
+import { timelineEvents, composers } from '../data/timeline'
 import './HomePage.css'
 
 function HomePage() {
@@ -43,12 +43,38 @@ function HomePage() {
           </ul>
         </Link>
 
+        <Link to="/map" className="feature-card">
+          <div className="feature-icon">
+            <Map size={48} />
+          </div>
+          <h3>מפת מלחינים</h3>
+          <p>מפה אינטראקטיבית של מלחינים בעולם עם סינון לפי תקופה ומיקום</p>
+          <ul className="feature-list">
+            <li>{composers.length} מלחינים</li>
+            <li>מפה גיאוגרפית</li>
+            <li>סינון לפי תקופה</li>
+          </ul>
+        </Link>
+
+        <Link to="/listening" className="feature-card">
+          <div className="feature-icon">
+            <ListMusic size={48} />
+          </div>
+          <h3>רשימת האזנה</h3>
+          <p>כל היצירות ממוינות לפי מלחין עם אפשרות למיון גמיש</p>
+          <ul className="feature-list">
+            <li>{compositions.length} יצירות</li>
+            <li>מיון לפי מלחין</li>
+            <li>פירוט מלא</li>
+          </ul>
+        </Link>
+
         <Link to="/compositions" className="feature-card">
           <div className="feature-icon">
             <Music size={48} />
           </div>
-          <h3>יצירות והאזנה</h3>
-          <p>רשימת האזנה מלאה עם פירוט לכל פרק ופרק</p>
+          <h3>יצירות מפורטות</h3>
+          <p>רשימה מפורטת של כל היצירות עם ניתוח מבני, פירוט פרקים והערות חשובות</p>
           <ul className="feature-list">
             <li>{compositions.length} יצירות מרכזיות</li>
             <li>פירוט לפרקים</li>
